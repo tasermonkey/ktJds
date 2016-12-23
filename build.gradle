@@ -30,7 +30,7 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version" // Required for Kotlin integration
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile 'org.springframework.data:spring-data-commons'
-    compile 'org.springframework.data:spring-data-elasticsearch'
+    compile 'org.springframework.data:spring-data-elasticsearch:2.0.3.RELEASE'
     compile 'org.springframework.security:spring-security-web'
     compile "org.elasticsearch:elasticsearch:2.2.0"
     compile "com.fasterxml.jackson.module:jackson-module-kotlin:2.7.5"
